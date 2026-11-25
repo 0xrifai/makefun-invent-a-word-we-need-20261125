@@ -1,0 +1,23 @@
+# Node / TypeScript build output
+node_modules/
+dist/
+build/
+*.js.map
+
+# Local run artefacts
+output/
+*.log
+
+# Editor and OS clutter
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Environment and secrets (never commit keys)
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+wallet.json
